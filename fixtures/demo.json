@@ -1,0 +1,33 @@
+{
+  "subject_id": "family_doctor_sync-synthetic",
+  "request_key": "family_doctor_sync-demo",
+  "payload": {
+    "application_id": "a-1",
+    "today": 10,
+    "documents": [
+      {
+        "document_id": "d1",
+        "kind": "id",
+        "expires_day": 99,
+        "content": "synthetic"
+      }
+    ],
+    "required_kinds": [
+      "id"
+    ],
+    "household_nodes": [
+      "guardian",
+      "member"
+    ],
+    "household_edges": [
+      [
+        "guardian",
+        "member"
+      ]
+    ],
+    "local_roster": [
+      "member"
+    ],
+    "remote_roster": []
+  }
+}
